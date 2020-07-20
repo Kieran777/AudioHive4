@@ -1,0 +1,19 @@
+#h{
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    top:0%;
+    left:0%;
+    background-color: #e88c00;
+    background-image: url('../assets/bees.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: bottom;
+
+}
+
+#aHN{
+    position: relative;
+    height:90%;
+    top:5%;
+}

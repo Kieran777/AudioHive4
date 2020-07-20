@@ -1,0 +1,20 @@
+#mainHome{
+    position: absolute;
+    left:10%;
+    width:80%;
+    height: 100%;
+    top:22%;
+
+}
+
+#aHA{
+    position: relative;
+    width:20%;
+    height: auto;
+}
+.highlightHeadings{
+    color:#e88c00;
+}
+.mediaQuotes{
+    font-size: small;
+}

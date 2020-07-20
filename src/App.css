@@ -1,38 +1,60 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+}
 .App {
   text-align: center;
+  
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#rightBut{
+  position: fixed;
+  height:8%;
+  width: auto;
+  right:2%;
+  top:45%;
+  color: #e88c00;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#leftBut{
+  position: fixed;
+  height:8%;
+  width: auto;
+  left:2%;
+  top:45%;
+  color: #e88c00;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pageBut{
+  position: fixed;
+  top:16%;
+  height: 6%;
+  width: auto;
+  color: #e88c00;
 }
-
-.App-link {
-  color: #61dafb;
+#productBut{
+left: 17%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#articlesBut{
+left:33%
+}
+#homeBut{
+left:49%;
+color:#e88c00;
+}
+#aboutBut{
+left:65%;
+}
+#contactBut{
+left:81%;
+}
+#mainInsert{
+  position: absolute;
+    left:10%;
+    width:80%;
+    height: 100%;
+    top:22%;
+}
+.highlightHeadings{
+  color:#e88c00;
 }

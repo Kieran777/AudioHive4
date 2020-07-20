@@ -1,0 +1,12 @@
+#mainInsert{
+    position: absolute;
+      left:10%;
+      width:80%;
+      height: 100%;
+      top:22%;
+  }
+.contactSymbols{
+    position: relative;
+    width:15%;
+    height: auto;
+}

@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+table{
+    width: 100%;
+}
+#mainInsert{
+  position: absolute;
+    left:10%;
+    width:80%;
+    height: 100%;
+    top:22%;
+}
